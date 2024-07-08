@@ -1,0 +1,49 @@
+.input {
+	padding: 15px;
+	margin: 20px;
+}
+.button {
+  padding: 15px 30px; 
+  margin: 20px;
+  cursor: pointer;
+  background-color: #007BFF; 
+  color: white; 
+  border: none; 
+  border-radius: 15px; 
+  font-size: 16px; 
+}
+
+.button :hover {
+  background-color: #0056b3; 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px; 
+  text-align: left; 
+}
+
+tr:nth-child(even) {
+  background-color: #FFFAE6; /* Light orange for even rows */
+}
+
+tr:nth-child(odd) {
+  background-color: #E6F7FF; /* Light blue for odd rows */
+}
+
+th {
+  background-color: #0056B3; /* Dark blue for the header */
+  color: white; /* White text color for the header */
+}
+
+tr:hover {
+  background-color: #FFD580; /* Light orange for hover effect */
+}
+
+td {
+  border: 1px solid #CCCCCC; /* Light gray border */
+}
