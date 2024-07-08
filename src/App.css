@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,15 +13,43 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.bmi-calculator {
+  background: #fff;
+  color: #36454F;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bmi-calculator h2 {
+  margin-bottom: 20px;
+}
+
+.bmi-calculator form div {
+  margin-bottom: 15px;
+}
+
+.bmi-calculator form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.bmi-calculator form input {
+  width: calc(50% - 5px);
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.bmi-calculator button {
+  padding: 10px 20px;
+  background: #61dafb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bmi-calculator button:hover {
+  background: #21a1f1;
 }
