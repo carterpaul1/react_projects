@@ -1,7 +1,7 @@
 {
   "name": "bmi-calculator",
   "version": "0.1.0",
-  "homepage" https://carterpaul1/github.io/bmi-calculator",
+  "homepage" "https://carterpaul1/github.io/bmi-calculator",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
